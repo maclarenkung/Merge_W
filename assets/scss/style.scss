@@ -1,0 +1,81 @@
+
+/*=============================================
+=            CSS Index            =
+=============================================
+
+    -> Default styles
+    -> Header
+    -> Footer
+    -> Sidebar
+    -> Container
+    -> Button
+    -> Scroll top
+    -> Search overlay
+    -> Section title
+    -> Category
+    -> Banner
+    -> Section space
+    -> Brand
+    -> Call to action
+    -> Deal counter
+    -> Instagram 
+    -> Breadcrumb
+    -> Slider
+    -> Backgrounds
+    -> Product
+    -> Quick view
+    -> Contact form
+    -> Testimonial
+    -> Google map
+    -> Accordion
+    -> Pagination
+    -> Newsletter
+    -> Progressbar
+    -> About us
+    -> Service
+    -> Contact us
+    -> Shop
+    -> Blog
+    -> Login register
+    -> Order tracking
+    -> Cart
+    -> Checkout
+
+
+/*=====  End of CSS Index  ======*/
+
+
+
+    @import '1-global/flex';
+    @import '0-base/variables';
+    @import '0-base/mixins';
+    @import '1-global/default';
+    @import '1-global/fonts';
+    // @import '1-global/awesome';
+
+    @import '2-layout/header';
+    @import '2-layout/footer';
+
+    @import '3-elements/popup';
+    @import '3-elements/icon';
+    @import '3-elements/backgrounds';
+    @import '3-elements/form';
+    @import '3-elements/button';
+    @import '3-elements/text';
+    
+
+   
+
+     @import '4-pages/home';
+    
+
+    
+    /*=============================================
+    =            Responsive styles            =
+    =============================================*/
+
+
+    
+    
+    
+    

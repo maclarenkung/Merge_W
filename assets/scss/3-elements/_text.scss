@@ -1,0 +1,14 @@
+%text-blue{
+	color:$color-thrifty;
+}
+%text-gray{
+	color:$glay3;
+}
+%success{
+	color: $success;
+}
+
+
+.text-gray{
+	@extend %text-gray;
+}

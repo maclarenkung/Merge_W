@@ -1,0 +1,191 @@
+$fa-font-display:      block !default;
+$fa-font-path:         "../fonts" !default;
+
+@font-face {
+  font-family: 'FontAwesome5Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: $fa-font-display;
+  src: url('#{$fa-font-path}/fa-solid-900.eot');
+  src: url('#{$fa-font-path}/fa-solid-900.eot?#iefix') format('embedded-opentype'),
+  url('#{$fa-font-path}/fa-solid-900.woff2') format('woff2'),
+  url('#{$fa-font-path}/fa-solid-900.woff') format('woff'),
+  url('#{$fa-font-path}/fa-solid-900.ttf') format('truetype'),
+  url('#{$fa-font-path}/fa-solid-900.svg#fontawesome') format('svg');
+}
+
+
+
+@font-face {
+  font-family: 'FontAwesome5Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: $fa-font-display;
+  src: url('#{$fa-font-path}/fa-brands-400.eot');
+  src: url('#{$fa-font-path}/fa-brands-400.eot?#iefix') format('embedded-opentype'),
+  url('#{$fa-font-path}/fa-brands-400.woff2') format('woff2'),
+  url('#{$fa-font-path}/fa-brands-400.woff') format('woff'),
+  url('#{$fa-font-path}/fa-brands-400.ttf') format('truetype'),
+  url('#{$fa-font-path}/fa-brands-400.svg#fontawesome') format('svg');
+}
+
+
+
+@font-face {
+  font-family: 'FontAwesome5Free';
+  font-style: normal;
+  font-weight: 400;
+  font-display: $fa-font-display;
+  src: url('#{$fa-font-path}/fa-regular-400.eot');
+  src: url('#{$fa-font-path}/fa-regular-400.eot?#iefix') format('embedded-opentype'),
+  url('#{$fa-font-path}/fa-regular-400.woff2') format('woff2'),
+  url('#{$fa-font-path}/fa-regular-400.woff') format('woff'),
+  url('#{$fa-font-path}/fa-regular-400.ttf') format('truetype'),
+  url('#{$fa-font-path}/fa-regular-400.svg#fontawesome') format('svg');
+}
+
+
+@font-face {
+    font-family: 'RideCondensed';
+    src: url('#{$fa-font-path}/hinted-RideCondensed-Italic.eot');
+    src: url('#{$fa-font-path}/hinted-RideCondensed-Italic.eot?#iefix') format('embedded-opentype'),
+        url('#{$fa-font-path}/hinted-RideCondensed-Italic.woff2') format('woff2'),
+        url('#{$fa-font-path}/hinted-RideCondensed-Italic.woff') format('woff'),
+        url('#{$fa-font-path}/hinted-RideCondensed-Italic.ttf') format('truetype'),
+        url('#{$fa-font-path}/hinted-RideCondensed-Italic.svg#RideCondensed-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'RideCondensed';
+    src: url('#{$fa-font-path}/hinted-RideCondensed.eot');
+    src: url('#{$fa-font-path}/hinted-RideCondensed.eot?#iefix') format('embedded-opentype'),
+        url('#{$fa-font-path}/hinted-RideCondensed.woff2') format('woff2'),
+        url('#{$fa-font-path}/hinted-RideCondensed.woff') format('woff'),
+        url('#{$fa-font-path}/hinted-RideCondensed.ttf') format('truetype'),
+        url('#{$fa-font-path}/hinted-RideCondensed.svg#RideCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ride';
+    src: url('#{$fa-font-path}/hinted-RideSemiBold-Italic.eot');
+    src: url('#{$fa-font-path}/hinted-RideSemiBold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('#{$fa-font-path}/hinted-RideSemiBold-Italic.woff2') format('woff2'),
+        url('#{$fa-font-path}/hinted-RideSemiBold-Italic.woff') format('woff'),
+        url('#{$fa-font-path}/hinted-RideSemiBold-Italic.ttf') format('truetype'),
+        url('#{$fa-font-path}/hinted-RideSemiBold-Italic.svg#RideSemiBold-Italic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ride';
+    src: url('#{$fa-font-path}/hinted-RideLight.eot');
+    src: url('#{$fa-font-path}/hinted-RideLight.eot?#iefix') format('embedded-opentype'),
+        url('#{$fa-font-path}/hinted-RideLight.woff2') format('woff2'),
+        url('#{$fa-font-path}/hinted-RideLight.woff') format('woff'),
+        url('#{$fa-font-path}/hinted-RideLight.ttf') format('truetype'),
+        url('#{$fa-font-path}/hinted-RideLight.svg#RideLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ride';
+    src: url('#{$fa-font-path}/hinted-RideExtrabold.eot');
+    src: url('#{$fa-font-path}/hinted-RideExtrabold.eot?#iefix') format('embedded-opentype'),
+        url('#{$fa-font-path}/hinted-RideExtrabold.woff2') format('woff2'),
+        url('#{$fa-font-path}/hinted-RideExtrabold.woff') format('woff'),
+        url('#{$fa-font-path}/hinted-RideExtrabold.ttf') format('truetype'),
+        url('#{$fa-font-path}/hinted-RideExtrabold.svg#RideExtrabold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ride';
+    src: url('#{$fa-font-path}/hinted-RideExtrabold-Italic.eot');
+    src: url('#{$fa-font-path}/hinted-RideExtrabold-Italic.eot?#iefix') format('embedded-opentype'),
+        url('#{$fa-font-path}/hinted-RideExtrabold-Italic.woff2') format('woff2'),
+        url('#{$fa-font-path}/hinted-RideExtrabold-Italic.woff') format('woff'),
+        url('#{$fa-font-path}/hinted-RideExtrabold-Italic.ttf') format('truetype'),
+        url('#{$fa-font-path}/hinted-RideExtrabold-Italic.svg#RideExtrabold-Italic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ride';
+    src: url('#{$fa-font-path}/hinted-Ride-Italic.eot');
+    src: url('#{$fa-font-path}/hinted-Ride-Italic.eot?#iefix') format('embedded-opentype'),
+        url('#{$fa-font-path}/hinted-Ride-Italic.woff2') format('woff2'),
+        url('#{$fa-font-path}/hinted-Ride-Italic.woff') format('woff'),
+        url('#{$fa-font-path}/hinted-Ride-Italic.ttf') format('truetype'),
+        url('#{$fa-font-path}/hinted-Ride-Italic.svg#Ride-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ride';
+    src: url('#{$fa-font-path}/hinted-Ride-Bold.eot');
+    src: url('#{$fa-font-path}/hinted-Ride-Bold.eot?#iefix') format('embedded-opentype'),
+        url('#{$fa-font-path}/hinted-Ride-Bold.woff2') format('woff2'),
+        url('#{$fa-font-path}/hinted-Ride-Bold.woff') format('woff'),
+        url('#{$fa-font-path}/hinted-Ride-Bold.ttf') format('truetype'),
+        url('#{$fa-font-path}/hinted-Ride-Bold.svg#Ride-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ride';
+    src: url('#{$fa-font-path}/hinted-RideLight-Italic.eot');
+    src: url('#{$fa-font-path}/hinted-RideLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('#{$fa-font-path}/hinted-RideLight-Italic.woff2') format('woff2'),
+        url('#{$fa-font-path}/hinted-RideLight-Italic.woff') format('woff'),
+        url('#{$fa-font-path}/hinted-RideLight-Italic.ttf') format('truetype'),
+        url('#{$fa-font-path}/hinted-RideLight-Italic.svg#RideLight-Italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+
+@font-face {
+    font-family: 'Ride';
+    src: url('#{$fa-font-path}/hinted-Ride.eot');
+    src: url('#{$fa-font-path}/hinted-Ride.eot?#iefix') format('embedded-opentype'),
+        url('#{$fa-font-path}/hinted-Ride.woff2') format('woff2'),
+        url('#{$fa-font-path}/hinted-Ride.woff') format('woff'),
+        url('#{$fa-font-path}/hinted-Ride.ttf') format('truetype'),
+        url('#{$fa-font-path}/hinted-Ride.svg#Ride') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ride';
+    src: url('#{$fa-font-path}/hinted-RideSemiBold.eot');
+    src: url('#{$fa-font-path}/hinted-RideSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('#{$fa-font-path}/hinted-RideSemiBold.woff2') format('woff2'),
+        url('#{$fa-font-path}/hinted-RideSemiBold.woff') format('woff'),
+        url('#{$fa-font-path}/hinted-RideSemiBold.ttf') format('truetype'),
+        url('#{$fa-font-path}/hinted-RideSemiBold.svg#RideSemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ride';
+    src: url('#{$fa-font-path}/hinted-Ride-BoldItalic.eot');
+    src: url('#{$fa-font-path}/hinted-Ride-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('#{$fa-font-path}/hinted-Ride-BoldItalic.woff2') format('woff2'),
+        url('#{$fa-font-path}/hinted-Ride-BoldItalic.woff') format('woff'),
+        url('#{$fa-font-path}/hinted-Ride-BoldItalic.ttf') format('truetype'),
+        url('#{$fa-font-path}/hinted-Ride-BoldItalic.svg#Ride-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}

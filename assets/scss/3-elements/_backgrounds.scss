@@ -1,0 +1,34 @@
+
+/*=============================================
+=            backgrounds            =
+=============================================*/
+
+.page-content-wrapper{
+	padding-bottom: 180px;
+	padding-bottom:lib-vw(320,180);
+	@media #{$screen-md-min}{
+		padding-bottom: 260px;
+	}
+	@media #{$screen-lg-min}{
+		padding-bottom: 100px;
+	}
+
+	&.page-bg-style01{
+		min-height: 100vh;
+		background:$black url('../images/login/bg-mobile.jpg') no-repeat bottom center;
+		background-size:cover;
+
+		padding-top: 60px;
+		padding-top:lib-vw(320,60);
+		@media #{$screen-md-min}{
+			padding-top:120px;
+		}
+		@media #{$screen-lg-min}{
+			background-image:url('../images/login/bg-desktop.jpg');
+		}
+	}
+}
+
+
+/*=====  End of backgrounds  ======*/
+

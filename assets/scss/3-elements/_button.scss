@@ -1,0 +1,111 @@
+
+/*=============================================
+=            button            =
+=============================================*/
+
+
+.btn-theme{
+    background: $color-hertz;
+    color: $black;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    transition: 0.6s; 
+    @include box-shadow(0px,8px,5px,-5px,rgba(1,1,1,0.25));
+    padding: 0.6em 1em;
+    font-weight: 600;
+    cursor: pointer;
+    
+
+    &:focus{
+        outline: none;
+        border:none;
+    }
+    &:hover{
+        background:lighten($color-hertz, 20%);
+        color:$black;
+        text-decoration: none;
+    }
+
+    &--noshadow{
+       @include box-shadow(0px,0px,0px,0px,rgba(1,1,1,0)); 
+    }
+
+    &--submit{
+        font-size:16px;
+        font-size:calc-vw(320,16);
+        @media #{$screen-md-min}{
+            font-size:26px;
+        }
+        @media #{$screen-lg-min}{
+            font-size:16px;
+        }
+    }
+
+    &.btn-resend{
+        margin-top:1em;
+        font-size:16px;
+        font-size:calc-vw(320,16);
+        width: 140px;
+        margin-left:auto;
+        margin-right: auto;
+        display: block;
+
+        width:lib-vw(320,140);
+        @media #{$screen-md-min}{
+            width: 140px * 2;
+            font-size:16px * 2;
+        }
+        @media #{$screen-lg-min}{
+            font-size:16px;
+            width: 140px;
+            margin-top:1.3em;
+        }
+
+    }
+
+    &.btn-gray{
+        background:$glay2;
+        color:$white;
+        &:hover{
+            background:lighten($glay2, 20%);
+            text-decoration: none;
+        }
+    }
+}
+
+.btn-popover{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-indent: -9999px;
+    background:url('../images/icon/img382.png') no-repeat center center;
+    background-size:contain;
+    border:solid 1px $glay1;
+    @include border-radius(100%);
+    position:relative;
+    top:2px;
+    left:4px;
+
+    width:lib-vw(320,20);
+    height:lib-vw(320,20);
+    top:lib-vw(320,2);
+    left:lib-vw(320,4);
+
+    @media #{$screen-md-min}{
+        width: 40px;
+        height: 40px;
+        top:4px;
+        left:8px;
+    }
+    @media #{$screen-lg-min}{
+        width: 20px;
+        height: 20px;
+        top:2px;
+        left:4px;
+    }
+}
+
+
+
+/*=====  End of button  ======*/

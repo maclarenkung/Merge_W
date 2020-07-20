@@ -1,0 +1,189 @@
+
+
+.fa{
+  
+}
+.fas {
+  font-family: 'FontAwesome5Free';
+  font-weight: 900;
+    font-style: normal;
+}
+.far {
+  font-family: 'FontAwesome5Free';
+  font-weight: 400;
+    font-style: normal;
+}
+.fab {
+  font-family: 'FontAwesome5Brands';
+  font-weight: 400;
+    font-style: normal;
+}
+
+.fas{
+	   font-family: 'FontAwesome5Free';
+  	 font-weight: 900;
+     font-style: normal;
+  &.fas-calendar{
+    &:before{
+      content: '\f073';
+    }
+  }
+  &.fas-eye{
+    &:before{
+      content: '\f06e';
+    }
+  }
+  &.fas-eye-slash{
+    &:before{
+      content: '\f070';
+    }
+  }
+	&.fas-home{
+		&:before{
+			content: '\f015';
+		}
+	}
+	&.fas-profile{
+		&:before{
+			content: '\f406';
+
+		}
+	}
+	&.fas-hearte{
+		&:before{
+			content: '';
+		}
+	}
+	&.fas-shopping-basket{
+		&:before{
+			content: '\f291';
+		}
+	}
+	&.fas-toogle{
+		&:before{
+			content: '';
+		}
+	}
+  &.fas-map-marker-alt{
+    &:before{
+      content: '\f3c5';
+    }
+  }
+  &.fas-file-alt{
+    &:before{
+      content: '\f15c';
+    }
+  }
+  &.fas-box{
+    &:before{
+      content: '\f466';
+    }
+  }
+  &.fas-wallet{
+    &:before{
+      content: '\f555';
+    }
+        
+  }
+  &.fas-credit-card{
+     &:before{
+      content: '\f09d';
+    }
+  }
+   &.fas-laptop{
+     &:before{
+      content: '\f109';
+    }
+  }
+   &.fas-cash-register{
+     &:before{
+      content: '\f788';
+    }
+  }
+  &.fas-comment-dots{
+     &:before{
+      content: '\f4ad';
+    }
+  }
+  &.fas-shipping-fast{
+     &:before{
+      content: '\f48b';
+    }
+  }
+  &.fas-sign-out-alt{
+     &:before{
+      content: '\f2f5';
+    }
+  }
+  &.fas-edit{
+    &:before{
+      content: '\f044';
+    }
+  }
+  &.fas-window-close{
+    &:before{
+      content: '\f410';
+    }
+  }
+  &.fas-file-word{
+     &:before{
+      content: '\f1c2';
+    }
+  }
+  &.fas-file-excel{
+     &:before{
+      content: '\f1c3';
+    }
+  }
+  &.fas-file-pdf{
+     &:before{
+      content: '\f1c1';
+    }
+  }
+  &.fas-file-image{
+     &:before{
+      content: '\f1c5';
+    }
+  }
+}
+
+.far{
+	&.far-heart{
+		&:before{
+			content: '\f004';
+		}
+	}
+  &.far-plus-square{
+    &:before{
+      content: '\f0fe';
+    }
+  }
+}
+.fab{
+  font-style: normal;
+  &.fab-facebook{
+    &:before{
+      content: '\f082';
+    }
+  }
+  &.fab-line{
+    &:before{
+      content: '\f3c0';
+    }
+  }
+   &.fab-ig{
+    &:before{
+      content: '\f16d';
+    }
+  }
+  &.fab-twitter{
+    &:before{
+      content: '\f081';
+    }
+  }
+  &.fab-pin{
+    &:before{
+      content: '\f0d3';
+    }
+  }
+}

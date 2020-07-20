@@ -1,0 +1,42 @@
+
+/*=============================================
+=            Theme default CSS            =
+=============================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+body{
+	font-family: 'Ride','Prompt',sans-serif;
+	font-size: 14px;
+	color: #000000;
+	line-height: 1.5em;
+
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+	font-size:calc-vw(320,12);
+	@media #{$screen-md-min}{
+	 	font-size: 20px;
+	 }
+	  @media #{$screen-lg-min}{
+	 	font-size: 14px;
+	 }
+	 @media #{$screen-xl-min}{
+	 	font-size: 14px;
+	 }
+}
+
+#wrapper{
+    width: 100%;
+    margin:0;
+    padding:0;
+    position:relative;
+   
+}
+
+
+
+.yellow{
+	color:$color-hertz;
+}
