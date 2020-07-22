@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-   
-
     <!-- CSS only -->
     <link rel="stylesheet" href="assets/css/style.css" />
 
@@ -32,17 +30,61 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
-    <title>MERGE DIGITAL</title>ß
+    <title>MERGE DIGITAL</title>
   </head>
   <body>
-    <body>
-     
-    </body>
-    <div class="wrapper">
-      <div class="logo-dev">
+    <a href="#navigation" class="navb-trigger"> Menu <span></span> </a>
+
+    <main>
+      <section class="intro" id="INTRO">
         <img src="assets/images/logo_web-page.svg" alt="" class="logo_index" />
-      </div>
+        <a href="#WORKS"><span></span>Scroll</a>
+      </section>
+    </main>
+    <div class="wrapper">
+      <section class="works" id="WORKS">
+        <h1>Web Production</h1>
+        
+       
+      </section>
     </div>
+
+    <nav class="navb-container" id="navigation">
+      <ul class="navb">
+        <li><a href="#INTRO">HOME</a></li>
+        <li><a href="#WORKS">WORKS</a></li>
+        <li><a href="#0">SERVICES</a></li>
+        <li><a href="#0">OUR CLIENTS</a></li>
+        <li><a href="#0">TEAM</a></li>
+        <li><a href="#0">CONTACT US</a></li>
+      </ul>
+    </nav>
+
+    <div class="overlay"></div>
+    <!-- improve main element 3d movement -->
   </body>
-  
+  <script>
+    //   intro
+    var navTrigger = document.getElementsByClassName("navb-trigger")[0],
+      body = document.getElementsByTagName("body")[0];
+
+    navTrigger.addEventListener("click", toggleNavigation);
+
+    function toggleNavigation(event) {
+      event.preventDefault();
+      body.classList.toggle("navb-open");
+    }
+    // end intro
+    // slide
+    $(function () {
+      $("a[href*=#]").on("click", function (e) {
+        e.preventDefault();
+        $("html, body").animate(
+          { scrollTop: $($(this).attr("href")).offset().top },
+          500,
+          "linear"
+        );
+      });
+    });
+  </script>
 </html>
